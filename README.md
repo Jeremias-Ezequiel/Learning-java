@@ -9,3 +9,10 @@ Welcome to my Java study repository! Here you will find various resources, code 
 - Polymorphism
 - Encapsulation
 - Abstract classes and Interfaces
+
+**Collections**
+
+- ArrayLists
+- LinkedLists
+- Stacks
+- Hash Map

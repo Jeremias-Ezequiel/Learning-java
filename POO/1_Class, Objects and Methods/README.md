@@ -16,7 +16,7 @@ Attributes are characteristics that a class possesses. They are varibles contain
 
 # Tips to keep in mind about classes 
 
-The following conventions ar einterntionally accepter standarts: 
+The following conventions are interntionally accepter standarts: 
     
     - All classes should begin with a capital letter in each of their words.
     - All attributes should start with a lowercase letter,and if they have more than one word they must start with an uppercase letter. There sould be no spaces between words. 

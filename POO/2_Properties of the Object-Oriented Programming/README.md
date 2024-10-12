@@ -61,3 +61,12 @@ Interfaces in Java are a collection of abstract methods and attributes that can 
 
 An interface only declares the function names and parameters that it accepts. Classes that implement an interface are responsible for providing the implementation of all methods declared in it.
 
+In summary, we can say that an interface: 
+    - Is a collection of abstract methods with constants properties (attributes) 
+    - Only allows the extraction or implementation of other interfaces
+    - Specifies what should be done (methods) bue does not show the implementation (can only have abstratac methods)
+    - Can only have methods with public access(they cannot be protected or private) 
+    - Can only contain 'variables' that are public, static and final
+    - The word 'abstract' in the method definition is not obligatory. 
+    - Generally, interfaces indice what an object can be.
+
