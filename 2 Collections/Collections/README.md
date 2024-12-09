@@ -23,6 +23,13 @@ Among the types of lists, one of the most used is the ArrayLists. It has the fol
     - It allows random access (it has indices).
     - Manipulation is slow (it runs through the ArrayList to make a change) 
 
+    ``` java
+        public static void main(String[] args) {
+
+            List<Person> list = new ArrayList<Person> (); 
+        }
+    ```
+
 # LinkedLists
 
 A LinkedList in Java is a data structure that represents a doubly linked list. It is different from an ArrayList because its elements are not stored in contiguous locations in memory.
@@ -32,6 +39,13 @@ In an LinkedList, each element, called a 'node', has a value and reference to th
 A Linkedlist provides methods to add, delete and access elements in the list. For example,it is possible to add elements at the first or last position in the list using methods like addFirst() and addLast(). You can also delete elements with methods like removeFirst() and removeLast().It is always possible to access  individual elements using the get() method or iterate through the list using an iterador or a for-each loop.
 
 The main advantage of a LinkedList is that it allows efficient insertions and deletions of elements at any posittion in the list, as it only requires updating the refences of the surrounding nodes. However, accessing elements at a specific position is less efficient than in an array, since a LinkedList must traverse the nodes from the beginning to the desired element. 
+
+``` java
+        public static void main(String[] args) {
+
+            List<Person> list = new LinkedList<Person> (); 
+        }
+```
 
 # Differences between ArrayList and LinkedList
 
@@ -63,6 +77,13 @@ Stacks use a series of specific methods to perform certain operations. Among the
     - peek: Shows the top element of the stack
     - search: Searches for a specific element in the stack. 
 
+``` java
+        public static void main(String[] args) {
+
+            Stack<Integer> pila = new Stack<Integer> (); 
+        }
+```
+
 # Introduction to Maps in Java
 
 In Java, a map (or mapping) is an interace that is part of the collections framework (java.util) and represents a collection of key-value pairs, where each key is associated with a unique value. 
@@ -83,3 +104,11 @@ Among its main features are:
     - Allows Null Keys and Values: HashMap allows both keys and values to be null. 
     - Iteration through Entries: You can iterate through the entries of the HashMap using an Iterator or a for-each loop. 
 
+``` java
+    public static void main(String[] args) {
+        Map<Integer,String> map = new HashMap<>(); 
+        //      key , value
+        map.put(123,"Example");
+    }
+
+```

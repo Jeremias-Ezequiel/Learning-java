@@ -228,3 +228,40 @@ Example:
 - If the *plugins* tag doesn's exist, we need to create it manually.
 - There is no fixed step for installing plugins, as it will depend on the plugin's documentation. 
 - When installing plugins, the necessary steps for modifying the *pom.xml* will be specified at the appropriate time.
+
+# Maven Applications with Dependencies
+
+## Logs
+
+- They are used to display information about the execution of our project for later review.
+- Every large-scale program has logs so that programmers can understand the sequence of actions performed by the user and the possible cause of a bug.
+- The difference between displaying information in a *.txt* file and the console is that logs can be filtered and divided by levels.
+- They are written in files with the *.log* extension, which can be opened with IntelliJ or VSCode.
+- Logs are very helpful in automated tests as they allow better debugging of future tests.
+
+### Composition of Logs
+
+- Date and Time: The date and time when the message was logged. 
+- Level: The specified log level. 
+- Tag: A label to group messages of the same type. 
+- Message: The message to be conveyed through the log. 
+
+### Log levels
+
+Levels are used to filter information based on the specified relevance. 
+
+- *Trace*: Displays all information with the most detailed level. 
+- *Debug*: Includes steps related to the project that are not high-level.
+- *Informative*: High-level steps of the project.
+- *Warning*: Warnings that could become potential errors.
+- *Error*: Typically used for *try/catch* blocks.
+- *Fatal*: Severe application errors.
+
+Visibility flows downward. In other words, if you choose to view logs at the informative level, you will also see Warning, Error, and Fatal logs.
+
+### Installing log4j2 Dependencies
+
+- Artifact-id: log4j-api -> [Log-Api](https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api)
+- Artifact-id: log4j-core -> [Log-Core](https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core)
+
+
